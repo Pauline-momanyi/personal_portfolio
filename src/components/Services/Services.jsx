@@ -17,7 +17,7 @@ function Services() {
         <div className="awesome">
             <span style={darkMode? {color: 'white'}:{}}>My Awesome</span>
             <span>Services</span>
-            <span>I design and implement web applications. <br/> You can also checkout my resume below.</span>
+            <span>I design and develop web applications. <br/> You can also checkout my resume below.</span>
             <a href={resume} download><button className='button s-button'>Download CV</button></a>
             
         </div>

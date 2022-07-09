@@ -20,6 +20,19 @@ function Portfolio() {
         spaceBetween={20}
         slidesPerView={3}
         grabCursor={true}
+        // data-swiper-autoplay="2000"
+        breakpoints={{
+            // when window width is >= 640px
+            300: {
+              width: 300,
+              slidesPerView: 1,
+            },
+            // when window width is >= 768px
+            768: {
+              width: 768,
+              slidesPerView: 2,
+            },
+          }}
         className='portfolio-slider'
         >
             <SwiperSlide>

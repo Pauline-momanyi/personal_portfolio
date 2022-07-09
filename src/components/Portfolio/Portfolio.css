@@ -36,8 +36,17 @@
 }
 
 @media screen and (max-width: 480px) {
-    .portfolio>Swiper{
-        display: flex;
-        flex-direction: column;
+    .swiper-container {
+      width: 325px;
     }
-}
+
+    .portfolio img{
+        transform: scale(0.7);
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .swiper-container {
+      width: 768px;
+    }
+  }

@@ -1,0 +1,131 @@
+.intro{
+    display: flex;
+    /* height: 80vh; */
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.i-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.i-name>:nth-child(1){
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;   
+}
+
+.i-name>:nth-child(2){
+    color: var(--orange);
+    font-weight: bold;
+    font-size: 3rem; 
+}
+
+.i-name>:nth-child(3){
+    color: var(--gray);
+    font-weight: 100;
+    font-size: 14px; 
+    margin-top: 10px;
+}
+
+.i-button{
+    width: 6rem;
+    height: 2rem;
+
+}
+
+.i-icons{
+    margin-bottom: 3rem;
+    display: flex;
+    gap: 0rem;
+}
+
+.i-icons>*{
+    transform: scale(0.5);
+}
+
+.i-icons>*:hover{
+    cursor: pointer;
+}
+
+.i-right{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+    transform: scale(0.59);
+    left: -5rem;
+    top: -4rem;
+}
+
+
+.i-right>:nth-child(2){
+    transform: scale(0.25);
+    left: -16rem;
+   top: -35rem;
+    /* border-bottom-right-radius: 100px 20px; */
+}
+
+.i-right>:nth-child(3){
+    transform: scale(0.6);
+    left: -24% ;
+    top: -19%;
+    border-radius: 50%;
+    padding: 0;
+
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    filter: blur(72px);
+    top: -18%;
+    left: 56%;
+}
+
+
+@media screen and (max-width: 480px) {
+    .intro{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        height:38rem;
+        /* gap: 7rem; */
+        /* transform: scale(0.7); */
+    }  
+    .i-name>:nth-child(1), .i-name>:nth-child(2){
+        font-size: 2rem; 
+    }
+    .i-right{
+        transform: scale(0.75);
+        left: -4.5rem;
+       
+    }
+
+    .i-right>:nth-child(3){
+        display: none;
+    }
+
+    .i-right>:nth-child(4){
+        color: black;
+    }
+  }
+

@@ -4,6 +4,7 @@
     margin: -0.5rem -3.5rem;
     position: relative;
     margin-top: -7rem;
+   
 }
 
 .f-content{
@@ -16,11 +17,13 @@
     margin-top: 4rem;
     gap: 4rem;
     color: white;
+    /* padding-top: 5rem; */   
 }
 
 .f-icons{
     display: flex;
     gap: 2rem;
+    /* padding-bottom: 7rem; */   
 }
 
 @media screen and (max-width: 480px){

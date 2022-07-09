@@ -12,9 +12,9 @@ function Footer() {
         <div className="f-content">
             <span>paulinemomanyi55@gmail.com</span>
             <div className="f-icons">
-                <LinkedIn color='white' size='3rem'/>
-                <Github color='white' size='3rem'/>
-                <Twitter color='white' size='3rem'/>
+                <a href="https://www.linkedin.com/in/pauline-momanyi-451a95147/"><LinkedIn color='white' size='3rem'/></a>
+                <a href="https://github.com/Pauline-momanyi"><Github color='white' size='3rem'/></a>
+                <a href=""><Twitter color='white' size='3rem'/></a>              
             </div>
         </div>
     </div>

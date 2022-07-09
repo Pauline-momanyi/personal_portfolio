@@ -48,5 +48,9 @@ textarea{
         margin-top: 1rem;
     }
 
+    .w-left>.awesome>span{
+        font-size: 2rem;
+    }
+
    
 }

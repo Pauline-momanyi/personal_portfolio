@@ -7,7 +7,10 @@ function Navbar() {
   return (
     <div className="n-wrapper">
       <div className="n-left">
-        <div className="n-name">Pauline</div>
+        {/* <div className="n-name">Pauline</div> */}
+          <Link spy={true} to='Services' smooth={true} activeClass='activeClass' style={{cursor: "pointer"}}>
+              <>Resume</>
+          </Link>
         <Toggle/>
       </div>
       <div className="n-right">

@@ -16,7 +16,7 @@ function App() {
     <div className="App" id='Home'
       style={{
         background : darkMode? 'black': '',
-        color: darkMode? 'white': ''
+        color: darkMode? 'white': '',
       }}
     >
       <Navbar/>

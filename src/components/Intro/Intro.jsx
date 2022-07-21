@@ -6,12 +6,14 @@ import Instagram from '../../img/instagram.png'
 import Vector2 from '../../img/Vector2.png'
 import  DSC_3183 from '../../img/DSC_3183.png'
 import Crown from '../../img/crown.png'
-import glassesemoji from '../../img/glassesimoji.png'
+// import glassesemoji from '../../img/glassesimoji.png'
+import glassesemoji from '../../img/dev.jpeg'
 import FloatingDiv from '../FloatingDiv/FloatingDiv'
 import {themeContext} from '../../Context/Context'
 import {useContext} from 'react'
 import {motion} from 'framer-motion'
 import {Link} from 'react-scroll'
+
 
 function Intro() {
     const transition = {duration: 2, type: 'spring'}
@@ -26,6 +28,7 @@ function Intro() {
                 <span>Pauline Momanyi</span>
                 <span>Software Developer with experience in both frontend and backend design and development.</span>
             </div>
+            
             <Link spy={true} to='Contact' smooth={true} activeClass='activeClass'> 
                 <button className="button i-button">Hire Me</button>
             </Link>
@@ -39,8 +42,8 @@ function Intro() {
             <img src={Vector2} alt="" />
             <img src={DSC_3183} alt="" />
             <motion.img 
-            initial={{left: '-36%'}}
-            whileInView={{left: '-24%'}}
+            initial={{left: '-30%'}}
+            whileInView={{left: '-5%'}}
             transition={transition}
             src={glassesemoji} alt="" />
             <motion.div
